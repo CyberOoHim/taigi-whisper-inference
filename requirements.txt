@@ -1,0 +1,13 @@
+torch
+faster-whisper
+ctranslate2
+transformers
+peft
+accelerate
+librosa
+gradio
+numpy
+datasets
+bitsandbytes>=0.49.2
+python-dotenv
+huggingface-hub
