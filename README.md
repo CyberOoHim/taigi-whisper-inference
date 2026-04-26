@@ -42,7 +42,7 @@ The easiest way to try out the model is through our interactive notebook in Goog
 
 ### 🇹🇼 Taigi-Specific Optimizations
 
-- **POJ Converter:** Automatic conversion from numeric POJ (e.g., `ta5-gi2`) to standard diacritics (e.g., `tâi-gí`).
+- **POJ Converter:** Automatic conversion from numeric POJ (e.g., `tai5-gi2`) to standard diacritics (e.g., `tâi-gí`).
 - **Dual Output:** Displays both raw model output and converted POJ text side-by-side.
 - **SRT Generation:** Export subtitles in SRT format with customizable timestamp granularity (Segment-level or Word-level).
 
