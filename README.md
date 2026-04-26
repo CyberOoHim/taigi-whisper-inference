@@ -52,6 +52,16 @@ The notebook automatically detects whether it's running in **Google Colab**, **K
 
 ---
 
+## 🤖 Model Variants
+To provide the best transcription experience, the inference notebook includes multiple model checkpoints for quality comparison:
+
+- **3 Epoch Model (`r3`):** The result of 3 training epochs. This serves as a baseline for performance evaluation.
+- **5 Epoch Model (`r5`):** The result of 5 training epochs. This is the **default** model and generally offers significantly improved accuracy and more robust handling of Taiwanese POJ diacritics.
+
+Users can easily switch between these versions using the dropdown menu in the **🛠️ CONFIGURATION** cell of the notebook.
+
+---
+
 ## 🛠️ Local Installation
 
 To run this project on your own machine:
@@ -94,7 +104,7 @@ To run this project on your own machine:
 ## 📖 User Guide
 
 1. **Initialization:** Run the first cell to install dependencies and configure the environment.
-2. **Model Loading:** Provide a path or Hugging Face repo ID for the `faster-whisper` model.
+2. **Model Selection:** Use the dropdown menu in the configuration cell to choose between the **3-epoch** or **5-epoch** model (5-epoch is recommended for best quality).
 3. **Interface Launch:** Execute the Gradio cell to start the web UI.
 4. **Transcription:**
    - Record or Upload audio.
