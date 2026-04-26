@@ -1,6 +1,6 @@
 # 🗣️ Taigi Whisper Inference
 
-> [!CAUTION]
+> [!Note]
 > **EXPERIMENTAL STATUS:** The Taigi POJ ASR model used in this notebook is currently in an experimental phase and is considered immature. Accuracy and performance may vary significantly depending on the input audio.
 
 This repository provides a high-performance, interactive inference solution for Taigi (Taiwanese) speech recognition. It leverages **Faster-Whisper** and **CTranslate2** for lightning-fast transcription and features a comprehensive **Gradio** web interface.
